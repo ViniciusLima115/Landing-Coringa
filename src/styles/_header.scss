@@ -1,0 +1,48 @@
+/* Estilos para o cabeçalho */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #474747;
+  font-size: 17px;
+}
+
+.header--sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header__logo {
+  max-width: 150px; /* Defina o tamanho máximo da logo conforme desejado */
+  margin-right: 20px; /* Adicione margem à direita para separar a logo da navegação */
+}
+
+.header__nav {
+  flex: 1;
+  text-align: right;
+}
+
+.header__menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__menu-item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.header__menu-item:last-child {
+  margin-right: 0;
+}
+
+.header__menu-item a {
+  color: #474747;
+  text-decoration: none;
+}

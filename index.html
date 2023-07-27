@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vingadores Ultimato</title>
+  <link rel="stylesheet" href="dist/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <img src="/src/images/joker__logo.webp" alt="Logo do Coringa" class="header__logo">
+    <nav class="header__nav">
+      <ul class="header__menu">
+        <li class="header__menu-item"><a href="#hero">Início</a></li>
+        <li class="header__menu-item"><a href="#about">Sobre o Filme</a></li>
+        <li class="header__menu-item"><a href="#cast">Elenco</a></li>
+        <li class="header__menu-item"><a href="#trailer">Trailer</a></li>
+        <li class="header__menu-item"><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header> 
+
+  <section id="hero" class="hero">
+    <div class="hero__overlay">
+      <h1 class="hero__title">CORINGA</h1>
+      <p class="hero__subtitle">Uma história original sobre o vilão icônico</p>
+      <a href="#trailer" class="hero__cta">Assista ao Trailer</a>
+    </div>
+  </section>
+  
+
+  <section id="about" class="about">
+    <div class="about__content">
+      <h2 class="about__title">Sobre o Filme</h2>
+      <p class="about__description">Coringa é um filme de 2019 que retrata a origem do icônico vilão da DC Comics. Dirigido por Todd Phillips e estrelado por Joaquin Phoenix, o filme aborda a jornada de Arthur Fleck, um comediante falido que descende à loucura e se torna o temido Coringa.</p>
+    </div>
+  </section>
+
+  <section id="cast" class="cast">
+    <div class="cast__content">
+      <h2 class="cast__title">Elenco</h2>
+      <ul class="cast__list">
+        <li class="cast__item">Joaquin Phoenix</li>
+        <li class="cast__item">Robert De Niro</li>
+        <li class="cast__item">Zazie Beetz</li>
+        <li class="cast__item">Frances Conroy</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="trailer" class="trailer">
+    <div class="trailer__content">
+      <h2 class="trailer__title">Trailer</h2>
+      <div class="trailer__video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zAGVQLHvwOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact__content">
+      <h2 class="contact__title">Entre em Contato</h2>
+      <form class="contact__form">
+        <input type="text" class="contact__input" placeholder="Seu nome">
+        <input type="email" class="contact__input" placeholder="Seu e-mail">
+        <textarea class="contact__textarea" placeholder="Digite sua mensagem"></textarea>
+        <button type="submit" class="contact__submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; 2023 Coringa. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="./dist/js/main.js"></script>
+</body>
+
+</html>
