@@ -1,22 +1,30 @@
 .cast {
+  padding: 40px;
+  background-color: #e0e0e0;
   text-align: center;
-    padding: 80px 0;
-  }
-  
-  .cast__title {
-    font-size: 2rem;
-    margin-bottom: 20px;
+}
 
-  }
+.cast__title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cast__list {
+  list-style: none;
+  padding: 0;
+}
+
+.cast__item {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+  @media (max-width:768px) {
+    .cast__title {
+      font-size: 32px;
+    }
   
-  .cast__list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .cast__item {
-    flex-basis: 50%;
-    color: rgb(54, 54, 54);
+    .cast__item {
+      font-size: 16px;
+    }
   }
   

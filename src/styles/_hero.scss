@@ -1,38 +1,42 @@
-/* Estilos para a seção "hero" */
 .hero {
   position: relative;
-  background-image: url('/src/images/joker__hero.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: url("/src/images/joker__hero.jpg");
   background-size: cover;
   background-position: center;
-  text-align: center;
   color: #fff;
-  padding: 100px 0;
-  height: 600px;
-}
-
-.hero__overlay {
-  position: relative;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  margin-top: 250px;
+  text-align: center;
 }
 
 .hero__title {
-  font-size: 3rem;
+  font-size: 48px;
   margin-bottom: 10px;
 }
 
 .hero__subtitle {
-  font-size: 1.5rem;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .hero__cta {
   display: inline-block;
-  background-color: rgba(0,0,0, 0.5 );
-  color: #fff;
   padding: 10px 20px;
+  background-color: #fff;
+  color: #800080;
   text-decoration: none;
-  margin-top: 20px;
+  font-size: 20px;
   border-radius: 5px;
+}
+
+@media (max-width:768px) {
+  .hero__title {
+    font-size: 32px;
+  }
+
+  .hero__subtitle {
+    font-size: 18px;
+  }
 }
